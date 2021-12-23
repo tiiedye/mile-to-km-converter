@@ -10,9 +10,9 @@ def calculate():
 
 screen = Tk()
 screen.title("Miles to Km")
-screen.minsize(width=250, height=100)
+screen.config(padx=20, pady=20)
 
-user_input = Entry()
+user_input = Entry(width=10)
 mile_label = Label(text="Miles")
 is_equal_to_label = Label(text="Is equal to")
 result_label = Label(text="0")
