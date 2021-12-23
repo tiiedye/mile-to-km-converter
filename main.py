@@ -3,9 +3,9 @@ from tkinter import *
 
 
 def calculate():
-    miles = int(user_input.get())
+    miles = float(user_input.get())
     km = miles * 1.609
-    result_label["text"] = str(km)
+    result_label["text"] = f"{km}"
 
 
 screen = Tk()
